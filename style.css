@@ -467,3 +467,74 @@ section.hero {
     color: #006A50;
     border-color: #006A50;
 }
+
+/*Subscribe Newsletter*/
+.newsletter {
+    margin-bottom: 80px;
+}
+
+.newsletter .container {
+    padding: 80px;
+    border-radius: 24px;
+}
+
+.newsletter-form {
+    width: 625px;
+    margin: 0 auto;
+}
+
+.newsletter-form form {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsletter-form input#email {
+    width: 400px;
+    padding: 18px 40px;
+    border-radius: 8px 0px 0px 8px;
+    background: #FFF;
+    border: none;
+    color: rgba(14, 14, 14, 0.30);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.newsletter-form input[type="submit"] {
+    padding: 15px 34px;
+    border-radius: 0px 8px 8px 0px;
+    background: #006A50;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    border: 1px solid #006A50;
+}
+
+.newsletter-form input[type="submit"]:hover {
+    background: transparent;
+    color: #006A50;
+}
+
+/*Footer*/
+
+.footer {
+    padding: 50px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.footer-logo a {
+    color: #0E0E0E;
+    font-size: 32px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.footer-logo {
+    margin-bottom: 30px
+}
+
+.footer .social-icons a {
+    margin: 10px;
+}

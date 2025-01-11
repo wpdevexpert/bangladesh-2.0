@@ -369,6 +369,12 @@ section.hero {
     border-radius: 24px;
     max-width: 410px;
     height: 310px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.news-item .news-thumbnail img {
+    max-width: 100%;
 }
 
 .news-content h3 {

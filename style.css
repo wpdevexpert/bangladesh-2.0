@@ -249,3 +249,37 @@ section.hero {
     background-color: transparent;
     color: #FFC239;
 }
+
+/*quotation*/
+.quotation {
+    margin-bottom: 80px;
+}
+
+.quote-item {
+    padding: 48px 24px;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background-color: #FFF;
+    background-image: url(assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: 2% 14%;
+}
+
+.quote-message {
+    color: rgba(14, 14, 14, 0.80);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+
+.quote-author {
+    margin-bottom: 2px;
+}
+
+.author-position {
+    color: rgba(14, 14, 14, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}

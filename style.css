@@ -175,6 +175,7 @@ section.hero {
 }
 
 .pillars .card-item {
+    width: 302px;
     padding: 24px;
     border-radius: 16px;
     border: 1px solid rgba(14, 14, 14, 0.15);
@@ -212,6 +213,7 @@ section.hero {
 }
 
 .vision-cards .card-item {
+    width: 410px;
     min-height: 350px;
     padding: 32px;
     border-radius: 16px;

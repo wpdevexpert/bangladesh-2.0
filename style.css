@@ -10,6 +10,10 @@
 }
 
 /* Shared styles */
+body {
+    background-color: #F1F1F3;
+}
+
 body,
 p,
 h1,
@@ -73,7 +77,7 @@ button {
     padding: 24px 0;
 }
 
-.logo a {
+.logo {
     color: #0E0E0E;
     font-size: 32px;
     font-weight: 700;
@@ -95,7 +99,7 @@ section.hero {
     margin-bottom: 16px;
 }
 
-.hero-left h2 {
+.hero-left h1 {
     color: #0E0E0E;
     font-family: "Fira Sans";
     font-size: 56px;
@@ -121,4 +125,47 @@ section.hero {
 
 .hero-right img {
     width: 475px;
+}
+
+/*Pillars of "Bangladesh*/
+.pillars-of-bangladesh {
+    margin-bottom: 80px;
+}
+
+.pillars-of-bangladesh h2 {
+    color: #0E0E0E;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+
+.card-section {
+    gap: 24px;
+}
+
+.card-item {
+    padding: 24px;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: #FFF;
+}
+
+.card-item img {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 24px;
+}
+
+.card-item h5 {
+    color: rgba(14, 14, 14, 0.80);
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.card-item p {
+    color: rgba(14, 14, 14, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
 }

@@ -93,6 +93,18 @@ h5 {
     background-color: #F7EBCF;
 }
 
+.subheading {
+    margin-bottom: 32px;
+    color: rgba(14, 14, 14, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.text-center {
+    text-align: center;
+}
+
 /* Header */
 .header {
     margin-bottom: 80px;
@@ -282,4 +294,176 @@ section.hero {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
+}
+
+/*Your Opinion Matters*/
+.opinion {
+    margin-bottom: 80px;
+}
+
+.questions-table {
+    padding: 32px;
+    background-color: #fff;
+    border-radius: 16px;
+}
+
+.questions-table table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+
+}
+
+.questions-table table thead th {
+    padding: 24px;
+    color: #0E0E0E;
+    font-size: 20px;
+    font-weight: 600;
+    background: #C6E4D6;
+    text-align: left;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+.questions-table table tbody td {
+    padding: 24px;
+    color: #0E0E0E;
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgba(255, 255, 255, 0.10);
+}
+
+.questions-table table tbody td select {
+    width: 100%;
+    padding: 10px 14px;
+    border-radius: 4px;
+    border: 1px solid #0E0E0E;
+    background: #C6E4D6;
+    color: #0E0E0E;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/*Recent News*/
+.recent-news {
+    margin-bottom: 80px;
+}
+
+.news-item {
+    padding: 48px;
+    gap: 32px;
+    border-radius: 24px;
+    background: #FFF;
+    margin-bottom: 24px;
+}
+
+.news-item:nth-child(even) .news-content {
+    order: 1;
+}
+
+.news-item:nth-child(even) .news-thumbnail {
+    order: 2;
+}
+
+.news-item .news-thumbnail {
+    border-radius: 24px;
+}
+
+.news-content h3 {
+    color: rgba(14, 14, 14, 0.80);
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.news-content .news-publisher {
+    margin-bottom: 12px;
+}
+
+.news-content p {
+    color: rgba(14, 14, 14, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 12px;
+}
+
+.news-content button {
+    padding: 13px 26px;
+    border-radius: 8px;
+    background: #006A50;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    border: 1px solid #006A50;
+}
+
+.news-content button:hover {
+    color: #006A50;
+    background-color: transparent;
+}
+
+/*Donation*/
+.donation {
+    margin-bottom: 80px;
+}
+
+.donation-form .select-amount {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.donation-form form label {
+    padding: 40px;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: #fff;
+    color: rgba(14, 14, 14, 0.80);
+    font-size: 40px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.donation-form form label:hover {
+    background: #C6E4D6;
+}
+
+.donation-form input[type="radio"] {
+    display: none;
+}
+
+.donation-form input[type="radio"]:checked+label {
+    background-color: #C6E4D6;
+    color: white;
+    border-color: #C6E4D6;
+}
+
+.donation-form input[type="text"] {
+    width: 880px;
+    padding: 20px 40px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: #FFF;
+    color: rgba(14, 14, 14, 0.30);
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.donation-form input[type="submit"] {
+    padding: 17px 34px;
+    border-radius: 8px;
+    border: 1px solid rgba(14, 14, 14, 0.10);
+    background: #006A50;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.donation-form input[type="submit"]:hover {
+    background: transparent;
+    color: #006A50;
+    border-color: #006A50;
 }
